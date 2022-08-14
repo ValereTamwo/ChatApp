@@ -1,0 +1,21 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "A real time Tchat Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Tamwo Feuwo Franck Valere",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
